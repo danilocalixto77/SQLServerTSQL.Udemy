@@ -1,0 +1,3 @@
+Baixar para instalação do SQL Server 2017 Developer:
+
+SQLServer2017-SSEI-Dev.exe

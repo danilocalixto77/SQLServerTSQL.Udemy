@@ -4,8 +4,8 @@
 ## Conteúdo do Curso
 
   - Seção 01. Introdução
-    - 001. Apresentação do Instrutor
-    - 002. Introdução - Abertura
+    - 001 . Apresentação do Instrutor
+    - 002 . Introdução - Abertura
 
   - Seção 02. Preparando e Instalando o Ambiente
     - 003. Instalando .net Framework 3.5

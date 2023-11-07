@@ -4,8 +4,8 @@
 ## Conteúdo do Curso
 
   - Seção 01. Introdução
-    - 001 . Apresentação do Instrutor
-    - 002 . Introdução - Abertura
+    - 001 Apresentação do Instrutor
+    - 002 Introdução - Abertura
 
   - Seção 02. Preparando e Instalando o Ambiente
     - 003. Instalando .net Framework 3.5
@@ -15,10 +15,10 @@
 
   - Seção 09. Funções de Data e hora
 
-    - 043. Data e hora do sistema
-    - 044. DATEPART
-    - 045. DATEADD e DATEDIFF
-    - 046. Formatando Datas
+    - 043 Data e hora do sistema
+    - 044 DATEPART
+    - 045 DATEADD e DATEDIFF
+    - 046 Formatando Datas
 
 
   - Seção 15. PROCEDURES

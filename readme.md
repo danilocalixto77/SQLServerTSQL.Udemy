@@ -49,6 +49,23 @@
   - Seção 04. Linguagem SQL e T-SQL
     - 013 Tipos de Dados
 
+    - 014 Constraints
+      > Tipos de Constraints:
+        - NOT NULL
+        - UNIQUE
+        - PRIMARY KEY
+        - FOREIGN KEY
+        - DEFAULT
+        - INDEX CHECK
+
+    - 015 Operadores de Comparação
+      > A operações comuns as linguagens (=, <, >, <>, !=, !>, !<).
+
+      > Ainda com relação as comparações o Collate define como as consulta serão descritas.
+        - Case Sensitive (CA) distinguindo entre maíusculas e minúsculas.
+        - Case Insensitive (CI) não distinguindo entre maíusculas e minúsculas.
+        - Accent Sensitive (AS) diferencia a letra acentuada.
+        - Accent Insensitive (AI) não diferencia a letra acentuada.
 
   - Seção 09. Funções de Data e hora
       

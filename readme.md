@@ -67,6 +67,23 @@
         - Accent Sensitive (AS) diferencia a letra acentuada.
         - Accent Insensitive (AI) não diferencia a letra acentuada.
 
+
+    - 016 Operadores Aritméticos
+      > Operadores Soma(+), Subtração(-), Multiplicação(*), Divisão(/), Módulo (%)
+
+    - 017 Operadores Lógicos e Filtros Parte 1
+      > AND, OR, LIKE, BETWEEN, IN, NOT.
+
+
+    - 018 Operadores Lógicos e Filtros Parte 2
+      > Like coringa [] 
+
+
+
+
+
+
+
   - Seção 09. Funções de Data e hora
       
   - Seção 09. Funções de Data e hora

@@ -60,3 +60,17 @@ comentarios
 		AND populacao >= 50000        
 		AND uf = 'SP'        
 		AND nome_mun <> 'Vinhedo';
+
+
+SELECT * FROM   senso 
+	WHERE  populacao !> 1000000        
+
+SELECT * FROM   senso 
+	WHERE  populacao !< 1000000        
+
+
+SELECT * FROM   senso 
+	WHERE  populacao !< 1000000        
+	AND UF != 'SP'
+
+

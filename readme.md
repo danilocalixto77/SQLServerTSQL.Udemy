@@ -72,11 +72,48 @@
       > Operadores Soma(+), Subtração(-), Multiplicação(*), Divisão(/), Módulo (%)
 
     - 017 Operadores Lógicos e Filtros Parte 1
-      > AND, OR, LIKE, BETWEEN, IN, NOT.
+      > AND, OR, LIKE, BETWEEN, IN, NOT, ANY, EXISTS, HAVING.
 
 
     - 018 Operadores Lógicos e Filtros Parte 2
       > Like coringa [] 
+
+  - Seção 05. Definições da Linguagem SQL (DML,DDL,DCL,TCL)
+    - 019 Introdução
+      > DML
+        - SELECT
+        - INSERT
+        - UPDATE
+        - DELETE
+      
+      > DDL
+        - CREATE
+        - ALTER
+        - DROP
+        - TRUNCATE
+
+      > DCL
+        - GRANT
+        - REVOKE
+        - DENY
+
+      > TCL
+        - BEGIN TRANSACTION
+        - COMMIT
+        - SAVE TRANSACTION
+        - ROLLBACK
+
+    - 020 Definição DML
+
+    - 021 Definição DDL Parte 1
+
+    - 022 Definição DDL Parte 2
+      > Para alteração de objetos ou nomes de colunas ou nomes de tabelas.
+
+      > EXEC Sp_rename 'colaborador.endereco', 'ender', 'COLUMN' 
+    
+      > EXEC Sp_rename   'colaborador','FUNC';
+
 
 
 

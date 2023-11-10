@@ -114,10 +114,83 @@
     
       > EXEC Sp_rename   'colaborador','FUNC';
 
+    - 023 Definição DCL Grant
+      > Procedures nativado SQL Server e comandos para para adicionar e conceder acessos a usuários: 
+        ```
+          exec master.dbo.sp_addlogin 'UsrTeste','SenhaTeste';
 
+          --Adiocnar
+          EXEC sp_grantdbaccess 'UsrTeste';
 
+          --EXEC sp_revokedbaccess 'UsrTeste';
 
+          --Concedendo Acesso DE ATUALIZACAO PARA UsrTeste.
+          GRANT UPDATE ON FUNCIONARIOS TO UsrTeste; 
 
+          --Concedendo Acesso DE INSERT PARA UsrTeste.
+          GRANT INSERT ON FUNCIONARIOS TO UsrTeste; 
+
+          --Concedendo Acesso DE Leitura PARA UsrTeste.
+          GRANT SELECT ON FUNCIONARIOS TO UsrTeste;
+
+          --Concedendo Acesso DE DELETE PARA UsrTeste.
+          GRANT DELETE ON FUNCIONARIOS TO UsrTeste;
+        ```
+
+      > Comando para modificar usuário corrente para outro usuario e retornar:
+        ```
+          --ALTERANDO USUARIO LOGADO
+          SETUSER 'UsrTeste'
+
+          --VERIFICANDO USUARIO LOGADO
+          select CURRENT_USER
+
+          --RETOANR PARA USUARIO CORRENTE
+          SETUSER 
+        ```
+
+    - 024 Definição DCL Revoke
+      > Comandos para para revogar acessos a usuários: 
+        ```
+          --REVOGANDO Acesso DE ATUALIZACAO UsrTeste.
+          REVOKE UPDATE ON FUNCIONARIOS to UsrTeste; 
+
+          -- REVOGANDO Acesso DE inserção UsrTeste.
+          REVOKE INSERT ON FUNCIONARIOS TO UsrTeste; 
+
+          -- REVOGANDO Acesso DE Leitura UsrTeste.
+          REVOKE SELECT ON FUNCIONARIOS TO UsrTeste; 
+
+          --REVOGA DIREITO DE EXECUCAO DA PROC TESTE_PROC PARA UsrTeste.
+          REVOKE EXECUTE ON testproc TO UsrTeste ;
+
+        ```
+
+    - 025 Definição DCL Deny
+      > Comandos para para negar acessos a usuários: 
+        ```
+          --NEGANDO Acesso DE ATUALIZACAO UsrTeste.
+          DENY UPDATE ON FUNCIONARIOS TO UsrTeste; 
+
+          -- NEGANDO Acesso DE ATUALIZACAO UsrTeste.
+          DENY INSERT ON FUNCIONARIOS TO UsrTeste;
+ 
+          -- NEGANDO Acesso DE Leitura UsrTeste.
+          DENY SELECT ON FUNCIONARIOS TO UsrTeste;
+
+          --NEGA ACESSO A EXECUSSAO DE PROCEDURE
+          DENY EXECUTE ON testproc TO UsrTeste;
+
+        ```
+
+    - 026 Definição TCL
+      > Comandos de controle transacional.
+
+  - Seção 06. Union e Subquerys
+    - 027 Union e Union all
+      > Union agrupa informações.
+
+      > Union All lista todos.
 
 
 

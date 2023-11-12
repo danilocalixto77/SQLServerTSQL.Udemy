@@ -201,6 +201,12 @@
     - 030 jOINS Parte 2
 
   - Seção 08:Funções SQL
+    - 031 Funçoes de agregação Parte 1
+      > AVG, MIN, MAX, SUM, COUNT STDEV, STDEVP, GROUPING, GROUPING_ID, VAR, VARP
+
+    - 032 Funçoes de agregação Parte 2
+      > WITH ROLLUP totaliza o group by.
+
 
 
 

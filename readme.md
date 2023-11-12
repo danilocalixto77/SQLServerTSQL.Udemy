@@ -192,6 +192,9 @@
 
       > Union All lista todos.
 
+    - 028 Subquery
+      > São subconsultas aninhadas seja ela de um select com outro select ou com algum outro DML (Update, Delete, Insert).
+
 
 
   - Seção 09. Funções de Data e hora

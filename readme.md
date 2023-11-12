@@ -3,17 +3,17 @@
 
 ## Conteúdo do Curso
 
-  - Seção 01. Introdução
+  - Seção 01: Introdução
     - 001 Apresentação do Instrutor
     - 002 Introdução - Abertura
 
-  - Seção 02. Preparando e Instalando o Ambiente
+  - Seção 02: Preparando e Instalando o Ambiente
     - 003 Instalando .net Framework 3.5
     - 004 Instalando SQL SERVER 2017
     - 005 Instalando SQL SERVER MANAGEMENT STUDIO (SSMS)
     - 006 Restaurando Databases para as aulas
 
-  - Seção 03. Seção 03. Conceitos Teóricos de Banco de dados
+  - Seção 03: Seção 03. Conceitos Teóricos de Banco de dados
     - 007 Conceitos de Banco de dados
     - 008 Conceitos de Banco de dados relacional
     - 009 Modelo Entidade Relacionamento
@@ -46,7 +46,7 @@
     - 012 Historico SQL e SGBD
       > Linguagem de consulta interativa (Query AdHoc): que é a executação de comandos de consulta diretamente em ferramentas front-end que retornam os dados instantaneamente. Ex: SSMS - SQL Server Management Studio
 
-  - Seção 04. Linguagem SQL e T-SQL
+  - Seção 04: Linguagem SQL e T-SQL
     - 013 Tipos de Dados
 
     - 014 Constraints
@@ -186,7 +186,7 @@
     - 026 Definição TCL
       > Comandos de controle transacional.
 
-  - Seção 06. Union e Subquerys
+  - Seção 06: Union e Subquerys
     - 027 Union e Union all
       > Union agrupa informações.
 
@@ -194,6 +194,13 @@
 
     - 028 Subquery
       > São subconsultas aninhadas seja ela de um select com outro select ou com algum outro DML (Update, Delete, Insert).
+
+  - Seção 07: JOINS
+    - 029 jOINS Parte 1
+
+    - 030 jOINS Parte 2
+
+  - Seção 08:Funções SQL
 
 
 

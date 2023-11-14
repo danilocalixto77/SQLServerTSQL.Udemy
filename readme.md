@@ -210,7 +210,15 @@
     - 033 Funções de Classificação
       > RANK, NTILE DENSE_RANK, ROW_NUMBER
 
+    - 034 Funções Lógicas
+      > CHOOSE, IIF
 
+
+    - 035 Funções de Matemáticas
+      > ABS, RAND, ROUND, POWER, SQRT
+
+    - 036 Funções de Matemáticas
+      - SELECT TOP
 
 
 

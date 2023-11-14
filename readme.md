@@ -207,6 +207,10 @@
     - 032 Funçoes de agregação Parte 2
       > WITH ROLLUP totaliza o group by.
 
+    - 033 Funções de Classificação
+      > RANK, NTILE DENSE_RANK, ROW_NUMBER
+
+
 
 
 

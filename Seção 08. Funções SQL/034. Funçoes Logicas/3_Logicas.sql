@@ -10,7 +10,7 @@ Use AdventureWorks2017
 Choose (productcategoryid, 'A', 'B', 'C', 'D', 'E') AS Expressao 
 FROM   production.productcategory; 
 
---select distinct productcategoryid  FROM   production.productcategory; 
+  --select distinct productcategoryid  FROM   production.productcategory; 
 --exemplo 3
 
  SELECT jobtitle,        

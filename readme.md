@@ -218,8 +218,12 @@
       > ABS, RAND, ROUND, POWER, SQRT
 
     - 036 Funções de Matemáticas
-      - SELECT TOP
+      > SELECT TOP
 
+    - 037 Funcões de Conversão Parte 1
+      > CAST, CONVERT PARSE, TRY_CAST, TRY_CONVERT, TRY_PARSE
+
+    - 038 Funcões de Conversão Parte 2
 
 
   - Seção 09. Funções de Data e hora

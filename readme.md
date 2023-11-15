@@ -1,5 +1,6 @@
 # Formação SLQ Server 2017 Desenvolvedor Expert SQL e T-SQL
->Professor: André Rosa - Udemy
+
+  > Professor: André Rosa - Udemy
 
 ## Conteúdo do Curso
 
@@ -212,7 +213,6 @@
 
     - 034 Funções Lógicas
       > CHOOSE, IIF
-
 
     - 035 Funções de Matemáticas
       > ABS, RAND, ROUND, POWER, SQRT

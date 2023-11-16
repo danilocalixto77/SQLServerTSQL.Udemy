@@ -225,6 +225,17 @@
 
     - 038 Funcões de Conversão Parte 2
 
+    - 039 Funções de Caracteres Parte 1
+      > ASCII, LTRIM, RTRIM
+
+    - 040 Funções de Caracteres Parte 2
+      > STR, CONCAT, CONCAT_WS
+
+    - 041 Funções de Caracteres Parte 3
+      > REPLASE, REPLICATE, LEFT, RIGHT, UPPER, LOWER, REVERSE, LEN, DATALENGHT
+
+    - 042 Funções de Caracteres Parte 4
+
 
   - Seção 09. Funções de Data e hora
       

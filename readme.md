@@ -239,9 +239,23 @@
       
   - Seção 09. Funções de Data e hora
     - 043 Data e hora do sistema
+      > SYSDATETIME, SYSDATETIMEOFFSET, SYSUTCDATETIME,  CURRENT_TIMESTAMP, GETDATE, GETUTCDATE
+
     - 044 DATEPART
+      > DATENAME, DATEPART, DAY, MONTH, YEAR, DATETIMEFROMPARTS
+
     - 045 DATEADD e DATEDIFF
+
     - 046 Formatando Datas
+
+  - Seção 10: Expressões
+
+    - 047 CASE
+
+    - 048 NULLIF e ISNULL
+
+    - 049 COALESCE
+
 
   - Seção 15. PROCEDURES
     - 072 Procedures Parte 1

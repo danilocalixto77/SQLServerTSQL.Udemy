@@ -260,6 +260,12 @@
     - 050 Views
 
     - 051 Temp Table
+      > Tabelas/Entidades criadas na data base TempDB e podem ser **Locais** ou **Globais**
+
+      > Tabelas **Locais** indentificado por #
+
+      > Tabelas **Globais** indentificado por ##
+
 
     - 052 Siga em frente ! Vamos até o final!
 

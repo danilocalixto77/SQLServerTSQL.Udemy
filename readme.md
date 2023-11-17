@@ -167,7 +167,7 @@
 
         ```
 
-    - 025 Definição DCL Deny
+21:34 16/11/202321:34 16/11/2023    - 025 Definição DCL Deny
       > Comandos para para negar acessos a usuários: 
         ```
           --NEGANDO Acesso DE ATUALIZACAO UsrTeste.
@@ -249,12 +249,20 @@
     - 046 Formatando Datas
 
   - Seção 10: Expressões
-
     - 047 CASE
 
     - 048 NULLIF e ISNULL
 
     - 049 COALESCE
+
+  - Seção 11: Views e Temp Table
+    
+    - 050 Views
+
+    - 051 Temp Table
+
+    - 052 Siga em frente ! Vamos até o final!
+
 
 
   - Seção 15. PROCEDURES

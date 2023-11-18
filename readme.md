@@ -270,6 +270,14 @@
 
   - Seção 12: Extensão Transact-SQL
 
+    - 053 Estrutura IF
+
+    - 054 Estrutura While
+
+    - 055 Populando tabela com While.
+
+    - 056 TRY .. CATCH Tratando erros
+
 
   - Seção 15. PROCEDURES
     - 072 Procedures Parte 1

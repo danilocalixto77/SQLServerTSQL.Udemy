@@ -266,9 +266,9 @@
 
       > Tabelas **Globais** indentificado por ##
 
-
     - 052 Siga em frente ! Vamos até o final!
 
+  - Seção 12: Extensão Transact-SQL
 
 
   - Seção 15. PROCEDURES

@@ -207,7 +207,7 @@
 
   - 030 jOINS Parte 2
 
-### Seção 08:Funções SQL
+### Seção 08: Funções SQL
   - 031 Funçoes de agregação Parte 1
   
     AVG, MIN, MAX, SUM, COUNT STDEV, STDEVP, GROUPING, GROUPING_ID, VAR, VARP
@@ -268,11 +268,11 @@
   - 046 Formatando Datas
 
 ### Seção 10: Expressões
-    - 047 CASE
+  - 047 CASE
 
-    - 048 NULLIF e ISNULL
+  - 048 NULLIF e ISNULL
 
-    - 049 COALESCE
+  - 049 COALESCE
 
 ### Seção 11: Views e Temp Table
   - 050 Views

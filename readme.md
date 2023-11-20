@@ -177,13 +177,13 @@
     --NEGANDO Acesso DE ATUALIZACAO UsrTeste.
     DENY UPDATE ON FUNCIONARIOS TO UsrTeste; 
 
-    -- NEGANDO Acesso DE ATUALIZACAO UsrTeste.
+    --NEGANDO Acesso DE ATUALIZACAO UsrTeste.
     DENY INSERT ON FUNCIONARIOS TO UsrTeste;
- 
-    -- NEGANDO Acesso DE Leitura UsrTeste.
+
+    --NEGANDO Acesso DE Leitura UsrTeste.
     DENY SELECT ON FUNCIONARIOS TO UsrTeste;
 
-    --NEGA ACESSO A EXECUSSAO DE PROCEDURE
+    --NEGA ACESSO A EXECUSSÃO DE PROCEDURE
     DENY EXECUTE ON testproc TO UsrTeste;
     ```
 

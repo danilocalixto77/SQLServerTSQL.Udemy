@@ -70,267 +70,280 @@
     - INDEX CHECK
 
   - 015 Operadores de Comparação
-    > A operações comuns as linguagens (=, <, >, <>, !=, !>, !<).
 
-    > Ainda com relação as comparações o Collate define como as consulta serão descritas.
-      - Case Sensitive (CA) distinguindo entre maíusculas e minúsculas.
-      - Case Insensitive (CI) não distinguindo entre maíusculas e minúsculas.
-      - Accent Sensitive (AS) diferencia a letra acentuada.
-      - Accent Insensitive (AI) não diferencia a letra acentuada.
+    A operações comuns as linguagens (=, <, >, <>, !=, !>, !<).
 
+    Ainda com relação as comparações o Collate define como as consulta serão descritas.
+    - Case Sensitive (CA) distinguindo entre maíusculas e minúsculas.
+    - Case Insensitive (CI) não distinguindo entre maíusculas e minúsculas.
+    - Accent Sensitive (AS) diferencia a letra acentuada.
+    - Accent Insensitive (AI) não diferencia a letra acentuada.
 
-    - 016 Operadores Aritméticos
-      > Operadores Soma(+), Subtração(-), Multiplicação(*), Divisão(/), Módulo (%)
+  - 016 Operadores Aritméticos
 
-    - 017 Operadores Lógicos e Filtros Parte 1
-      > AND, OR, LIKE, BETWEEN, IN, NOT, ANY, EXISTS, HAVING.
+      Operadores Soma(+), Subtração(-), Multiplicação(*), Divisão(/), Módulo (%)
 
-
-    - 018 Operadores Lógicos e Filtros Parte 2
-      > Like coringa [] 
-
-  - Seção 05. Definições da Linguagem SQL (DML,DDL,DCL,TCL)
-    - 019 Introdução
-      > DML
-        - SELECT
-        - INSERT
-        - UPDATE
-        - DELETE
-      
-      > DDL
-        - CREATE
-        - ALTER
-        - DROP
-        - TRUNCATE
-
-      > DCL
-        - GRANT
-        - REVOKE
-        - DENY
-
-      > TCL
-        - BEGIN TRANSACTION
-        - COMMIT
-        - SAVE TRANSACTION
-        - ROLLBACK
-
-    - 020 Definição DML
-
-    - 021 Definição DDL Parte 1
-
-    - 022 Definição DDL Parte 2
-      > Para alteração de objetos ou nomes de colunas ou nomes de tabelas.
-
-      > EXEC Sp_rename 'colaborador.endereco', 'ender', 'COLUMN' 
+  - 017 Operadores Lógicos e Filtros Parte 1
     
-      > EXEC Sp_rename   'colaborador','FUNC';
+    AND, OR, LIKE, BETWEEN, IN, NOT, ANY, EXISTS, HAVING.
 
-    - 023 Definição DCL Grant
-      > Procedures nativado SQL Server e comandos para para adicionar e conceder acessos a usuários: 
-        ```
-        exec master.dbo.sp_addlogin 'UsrTeste','SenhaTeste';
+  - 018 Operadores Lógicos e Filtros Parte 2
+    
+    Like coringa [] 
 
-        --Adiocnar
-        EXEC sp_grantdbaccess 'UsrTeste';
+### Seção 05: Definições da Linguagem SQL (DML,DDL,DCL,TCL)
 
-        --EXEC sp_revokedbaccess 'UsrTeste';
+  - 019 Introdução
 
-        --Concedendo Acesso DE ATUALIZACAO PARA UsrTeste.
-        GRANT UPDATE ON FUNCIONARIOS TO UsrTeste; 
+    **DML**: SELECT / INSERT / UPDATE / DELETE
+    
+    **DDL**: CREATE / ALTER / DROP / TRUNCATE
 
-        --Concedendo Acesso DE INSERT PARA UsrTeste.
-        GRANT INSERT ON FUNCIONARIOS TO UsrTeste; 
+    **DCL**: GRANT / REVOKE / DENY
 
-        --Concedendo Acesso DE Leitura PARA UsrTeste.
-        GRANT SELECT ON FUNCIONARIOS TO UsrTeste;
+    **TCL**: BEGIN TRANSACTION / COMMIT / SAVE TRANSACTION / ROLLBACK
 
-        --Concedendo Acesso DE DELETE PARA UsrTeste.
-        GRANT DELETE ON FUNCIONARIOS TO UsrTeste;
-        ```
+  - 020 Definição DML
 
-      > Comando para modificar usuário corrente para outro usuario e retornar:
-        ```
-        --ALTERANDO USUARIO LOGADO
-        SETUSER 'UsrTeste'
+  - 021 Definição DDL Parte 1
 
-        --VERIFICANDO USUARIO LOGADO
-        select CURRENT_USER
+  - 022 Definição DDL Parte 2
+    
+    Para alteração de objetos ou nomes de colunas ou nomes de tabelas.
 
-        --RETOANR PARA USUARIO CORRENTE
-        SETUSER 
-        ```
+    ```
+    EXEC Sp_rename 'colaborador.endereco', 'ender', 'COLUMN' 
+  
+    EXEC Sp_rename 'colaborador','FUNC';
+    ```
 
-    - 024 Definição DCL Revoke
-      > Comandos para para revogar acessos a usuários: 
-        ```
-        --REVOGANDO Acesso DE ATUALIZACAO UsrTeste.
-        REVOKE UPDATE ON FUNCIONARIOS to UsrTeste; 
+  - 023 Definição DCL Grant
 
-        -- REVOGANDO Acesso DE inserção UsrTeste.
-        REVOKE INSERT ON FUNCIONARIOS TO UsrTeste; 
+    Procedures nativado SQL Server e comandos para para adicionar e conceder acessos a usuários: 
+    ```
+    exec master.dbo.sp_addlogin 'UsrTeste','SenhaTeste';
 
-        -- REVOGANDO Acesso DE Leitura UsrTeste.
-        REVOKE SELECT ON FUNCIONARIOS TO UsrTeste; 
+    --Adiocnar
+    EXEC sp_grantdbaccess 'UsrTeste';
 
-        --REVOGA DIREITO DE EXECUCAO DA PROC TESTE_PROC PARA UsrTeste.
-        REVOKE EXECUTE ON testproc TO UsrTeste ;
-        ```
+    --EXEC sp_revokedbaccess 'UsrTeste';
 
+    --Concedendo Acesso DE ATUALIZACAO PARA UsrTeste.
+    GRANT UPDATE ON FUNCIONARIOS TO UsrTeste; 
 
-    - 025 Definição DCL Deny
-      > Comandos para para negar acessos a usuários: 
-        ```
-        --NEGANDO Acesso DE ATUALIZACAO UsrTeste.
-        DENY UPDATE ON FUNCIONARIOS TO UsrTeste; 
+    --Concedendo Acesso DE INSERT PARA UsrTeste.
+    GRANT INSERT ON FUNCIONARIOS TO UsrTeste; 
 
-        -- NEGANDO Acesso DE ATUALIZACAO UsrTeste.
-        DENY INSERT ON FUNCIONARIOS TO UsrTeste;
+    --Concedendo Acesso DE Leitura PARA UsrTeste.
+    GRANT SELECT ON FUNCIONARIOS TO UsrTeste;
+
+    --Concedendo Acesso DE DELETE PARA UsrTeste.
+    GRANT DELETE ON FUNCIONARIOS TO UsrTeste;
+    ```
+
+    Comando para modificar usuário corrente para outro usuario e retornar:
+    ```
+    --ALTERANDO USUARIO LOGADO
+    SETUSER 'UsrTeste'
+
+    --VERIFICANDO USUARIO LOGADO
+    select CURRENT_USER
+
+    --RETOANR PARA USUARIO CORRENTE
+    SETUSER 
+    ```
+
+  - 024 Definição DCL Revoke
+
+    Comandos para para revogar acessos a usuários: 
+    ```
+    --REVOGANDO Acesso DE ATUALIZACAO UsrTeste.
+    REVOKE UPDATE ON FUNCIONARIOS to UsrTeste; 
+
+    -- REVOGANDO Acesso DE inserção UsrTeste.
+    REVOKE INSERT ON FUNCIONARIOS TO UsrTeste; 
+
+    -- REVOGANDO Acesso DE Leitura UsrTeste.
+    REVOKE SELECT ON FUNCIONARIOS TO UsrTeste; 
+
+    --REVOGA DIREITO DE EXECUCAO DA PROC TESTE_PROC PARA UsrTeste.
+    REVOKE EXECUTE ON testproc TO UsrTeste ;
+    ```
+
+  - 025 Definição DCL Deny
+
+    Comandos para para negar acessos a usuários: 
+    ```
+    --NEGANDO Acesso DE ATUALIZACAO UsrTeste.
+    DENY UPDATE ON FUNCIONARIOS TO UsrTeste; 
+
+    -- NEGANDO Acesso DE ATUALIZACAO UsrTeste.
+    DENY INSERT ON FUNCIONARIOS TO UsrTeste;
  
-        -- NEGANDO Acesso DE Leitura UsrTeste.
-        DENY SELECT ON FUNCIONARIOS TO UsrTeste;
+    -- NEGANDO Acesso DE Leitura UsrTeste.
+    DENY SELECT ON FUNCIONARIOS TO UsrTeste;
 
-        --NEGA ACESSO A EXECUSSAO DE PROCEDURE
-        DENY EXECUTE ON testproc TO UsrTeste;
-        ```
+    --NEGA ACESSO A EXECUSSAO DE PROCEDURE
+    DENY EXECUTE ON testproc TO UsrTeste;
+    ```
 
-    - 026 Definição TCL
-      > Comandos de controle transacional.
+  - 026 Definição TCL
 
-  - Seção 06: Union e Subquerys
-    - 027 Union e Union all
-      > Union agrupa informações.
+    Comandos de controle transacional.
 
-      > Union All lista todos.
+### Seção 06: Union e Subquerys
+  - 027 Union e Union all
 
-    - 028 Subquery
-      > São subconsultas aninhadas seja ela de um select com outro select ou com algum outro DML (Update, Delete, Insert).
+    Union agrupa informações.
 
-  - Seção 07: JOINS
-    - 029 jOINS Parte 1
+    Union All lista todos.
 
-    - 030 jOINS Parte 2
+  - 028 Subquery
+  
+    São subconsultas aninhadas seja ela de um select com outro select ou com algum outro DML (Update, Delete, Insert).
 
-  - Seção 08:Funções SQL
-    - 031 Funçoes de agregação Parte 1
-      > AVG, MIN, MAX, SUM, COUNT STDEV, STDEVP, GROUPING, GROUPING_ID, VAR, VARP
+### Seção 07: JOINS
+  - 029 jOINS Parte 1
 
-    - 032 Funçoes de agregação Parte 2
-      > WITH ROLLUP totaliza o group by.
+  - 030 jOINS Parte 2
 
-    - 033 Funções de Classificação
-      > RANK, NTILE DENSE_RANK, ROW_NUMBER
+### Seção 08:Funções SQL
+  - 031 Funçoes de agregação Parte 1
+  
+    AVG, MIN, MAX, SUM, COUNT STDEV, STDEVP, GROUPING, GROUPING_ID, VAR, VARP
 
-    - 034 Funções Lógicas
-      > CHOOSE, IIF
+  - 032 Funçoes de agregação Parte 2
+    
+    WITH ROLLUP totaliza o group by.
 
-    - 035 Funções de Matemáticas
-      > ABS, RAND, ROUND, POWER, SQRT
+  - 033 Funções de Classificação
+    
+    RANK, NTILE DENSE_RANK, ROW_NUMBER
 
-    - 036 Funções de Matemáticas
-      > SELECT TOP
+  - 034 Funções Lógicas
+    
+    CHOOSE, IIF
 
-    - 037 Funcões de Conversão Parte 1
-      > CAST, CONVERT PARSE, TRY_CAST, TRY_CONVERT, TRY_PARSE
+  - 035 Funções de Matemáticas
+    
+    ABS, RAND, ROUND, POWER, SQRT
 
-    - 038 Funcões de Conversão Parte 2
+  - 036 Funções de Matemáticas
+    
+    SELECT TOP
 
-    - 039 Funções de Caracteres Parte 1
-      > ASCII, LTRIM
+  - 037 Funcões de Conversão Parte 1
+    
+    CAST, CONVERT PARSE, TRY_CAST, TRY_CONVERT, TRY_PARSE
 
-    - 040 Funções de Caracteres Parte 2
-      > STR, CONCAT, CONCAT_WS
+  - 038 Funcões de Conversão Parte 2
 
-    - 041 Funções de Caracteres Parte 3
-      > REPLASE, REPLICATE, LEFT, UPPER, SUBSTRING,  REVERSE
+  - 039 Funções de Caracteres Parte 1
+    
+    ASCII, LTRIM
 
-    - 042 Funções de Caracteres Parte 4
-      > LEN, DATALENGHT, RIGHT, LOWER, RTRIM
+  - 040 Funções de Caracteres Parte 2
+    
+    STR, CONCAT, CONCAT_WS
+
+  - 041 Funções de Caracteres Parte 3
+    
+    REPLASE, REPLICATE, LEFT, UPPER, SUBSTRING,  REVERSE
+
+  - 042 Funções de Caracteres Parte 4
+    
+    LEN, DATALENGHT, RIGHT, LOWER, RTRIM
       
-  - Seção 09. Funções de Data e hora
-    - 043 Data e hora do sistema
-      > SYSDATETIME, SYSDATETIMEOFFSET, SYSUTCDATETIME,  CURRENT_TIMESTAMP, GETDATE, GETUTCDATE
+### Seção 09: Funções de Data e hora
+  - 043 Data e hora do sistema
 
-    - 044 DATEPART
-      > DATENAME, DATEPART, DAY, MONTH, YEAR, DATETIMEFROMPARTS
+    SYSDATETIME, SYSDATETIMEOFFSET, SYSUTCDATETIME,  CURRENT_TIMESTAMP, GETDATE, GETUTCDATE
 
-    - 045 DATEADD e DATEDIFF
+  - 044 DATEPART
 
-    - 046 Formatando Datas
+    DATENAME, DATEPART, DAY, MONTH, YEAR, DATETIMEFROMPARTS
 
-  - Seção 10: Expressões
+  - 045 DATEADD e DATEDIFF
+
+  - 046 Formatando Datas
+
+### Seção 10: Expressões
     - 047 CASE
 
     - 048 NULLIF e ISNULL
 
     - 049 COALESCE
 
-  - Seção 11: Views e Temp Table
-    
-    - 050 Views
+### Seção 11: Views e Temp Table
+  - 050 Views
 
-    - 051 Temp Table
-      > Tabelas/Entidades criadas na data base TempDB e podem ser **Locais** ou **Globais**
+  - 051 Temp Table
 
-      > Tabelas **Locais** indentificado por #
+  Tabelas/Entidades criadas na data base TempDB e podem ser **Locais** ou **Globais**
 
-      > Tabelas **Globais** indentificado por ##
+  Tabelas **Locais** indentificado por #
 
-    - 052 Siga em frente ! Vamos até o final!
+  Tabelas **Globais** indentificado por ##
 
-  - Seção 12: Extensão Transact-SQL
+  - 052 Siga em frente ! Vamos até o final!
 
-    - 053 Estrutura IF
+### Seção 12: Extensão Transact-SQL
 
-    - 054 Estrutura While
+  - 053 Estrutura IF
 
-    - 055 Populando tabela com While.
+  - 054 Estrutura While
 
-    - 056 TRY .. CATCH Tratando erros
-      > Funções de sistema que podem retornar:
-        - ERROR_NUMBER(), ERROR_SEVERITY(), ERROR_STATE(), ERROR_PROCEDURE(), ERROR_LINE(), ERROR_MESSAGE()
+  - 055 Populando tabela com While.
 
-  ### Seção 13. CURSORES
-    - 057 Introdução a Cursores 
-      > São áreas em memórias compostas por linhas e colunas, destinadas a armazenar o resultado de uma consulta (select) podendo retornar de **ZERO** a **N LINHAS**.
-  
-      > Um cursor não pode ter o mesmo nome de um objeto do SQL.
+  - 056 TRY .. CATCH Tratando erros
 
-      > E o cursor é inicialmente criado pelo comando **DECLARE CURSOS**. Os cursores podem ser definidos como qualquer bloco T-SQL (procedures, functions, triggers...).
+    Funções de sistema que podem retornar: ERROR_NUMBER(), ERROR_SEVERITY(), ERROR_STATE(), ERROR_PROCEDURE(), ERROR_LINE(), ERROR_MESSAGE()
 
-      > O cursor é uma operação que requer bastante recurso, pois cada operação determinada demanda uma viagem de ida e volta através da rede.
+### Seção 13: CURSORES
+  - 057 Introdução a Cursores 
 
-      > Parâmetros dos Cursores:
-        - **LOCAL / GLOBAL**: É usado para definir como funcionará as tabelas temporárias sendo @local ou @@global.
-        - **FORWARD_ONLY / SCROLL**: Indica a rolagem para o cursor.
-        - **STATIC / KEYSE / DYNAMIC / FAST_FOWARD**: Usado para definir o tipo de cursor a ser criado.
-        - **READ_ONLY / SCROLL_LOCKS / OPTIMISTIC**: Indica o tipo de bloqueio que as linhas terão. Se as linhas sofrerão atualização e se os usuários poderão utilizar esses resultados.
+    São áreas em memórias compostas por linhas e colunas, destinadas a armazenar o resultado de uma consulta (select) podendo retornar de **ZERO** a **N LINHAS**.
+
+    Um cursor não pode ter o mesmo nome de um objeto do SQL.
+
+    E o cursor é inicialmente criado pelo comando **DECLARE CURSOS**. Os cursores podem ser definidos como qualquer bloco T-SQL (procedures, functions, triggers...).
+
+    O cursor é uma operação que requer bastante recurso, pois cada operação determinada demanda uma viagem de ida e volta através da rede.
+
+    Parâmetros dos Cursores:
+    - **LOCAL / GLOBAL**: É usado para definir como funcionará as tabelas temporárias sendo @local ou @@global.
+    - **FORWARD_ONLY / SCROLL**: Indica a rolagem para o cursor.
+    - **STATIC / KEYSE / DYNAMIC / FAST_FOWARD**: Usado para definir o tipo de cursor a ser criado.
+    - **READ_ONLY / SCROLL_LOCKS / OPTIMISTIC**: Indica o tipo de bloqueio que as linhas terão. Se as linhas sofrerão atualização e se os usuários poderão utilizar esses resultados.
         
-    
-    
+  - 058 Exemplo Cursores 1
+
+  - 059 Exemplo Cursores 2
+
+  - 060 Exemplo Cursores 3
+
+  - 061 Exemplo Cursores 4
+
+  - 062 Exemplo Cursores 5
+
+  - 063 Exemplo Cursores 6
+
+  - 064 Exemplo Cursores 7
 
 
-    - 058 Exemplo Cursores 1
-    - 059 Exemplo Cursores 2
-    - 060 Exemplo Cursores 3
-    - 061 Exemplo Cursores 4
-    - 062 Exemplo Cursores 5
-    - 063 Exemplo Cursores 6
-    - 064 Exemplo Cursores 7
+### Seção 15: PROCEDURES
+  - 072 Procedures Parte 1
+  - 073 Procedures Parte 2
+  - 074 Procedures Parte 3
+  - 075 Procedures Parte 4
 
+### Seção 16: TRIGGERS
+  - 076 Introdução
+  - 077 Triggers Parte 1
+  - 078 Triggers Parte 2
+  - 079 Triggers Parte 3
 
-  - Seção 15. PROCEDURES
-    - 072 Procedures Parte 1
-    - 073 Procedures Parte 2
-    - 074 Procedures Parte 3
-    - 075 Procedures Parte 4
-
-  - Seção 16. TRIGGERS
-    - 076 Introdução
-    - 077 Triggers Parte 1
-    - 078 Triggers Parte 2
-    - 079 Triggers Parte 3
-
-  - Seção 99. Extras
+### Seção 99: Extras
 
 
 

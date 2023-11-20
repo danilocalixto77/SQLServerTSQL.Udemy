@@ -4,16 +4,19 @@
 ## Conteúdo do Curso
 
 ### Seção 01: Introdução
-    - 001 Apresentação do Instrutor
-    - 002 Introdução - Abertura
+
+  - 001 Apresentação do Instrutor
+
+  - 002 Introdução - Abertura
 
 ### Seção 02: Preparando e Instalando o Ambiente
+
     - 003 Instalando .net Framework 3.5
     - 004 Instalando SQL SERVER 2017
     - 005 Instalando SQL SERVER MANAGEMENT STUDIO (SSMS)
     - 006 Restaurando Databases para as aulas
 
-  - Seção 03: Seção 03. Conceitos Teóricos de Banco de dados
+###  - Seção 03: Seção 03. Conceitos Teóricos de Banco de dados
     - 007 Conceitos de Banco de dados
     - 008 Conceitos de Banco de dados relacional
     - 009 Modelo Entidade Relacionamento

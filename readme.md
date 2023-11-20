@@ -1,6 +1,5 @@
 # Formação SLQ Server 2017 Desenvolvedor Expert SQL e T-SQL
-
-  > Professor: André Rosa - Udemy
+  > Escola: **Udemy** - Professor: **André Rosa - Udemy**
 
 ## Conteúdo do Curso
 
@@ -23,7 +22,7 @@
       > Tipos: Forte, Fraca e Associativa
         - Forte: Entidade que não dependem de outra para existirem (Ex: Produto).
         - Fraca: Entidade que depende de outra para existirem (Vendas).
-        - Associativa: Entidade que surge devivada da necessidade de se associar informações de mais de uma entidade(Ex: Aluno, Curso, CursoAluno.
+        - Associativa: Entidade que surge devivada da necessidade de se associar informações de mais de uma entidade(Ex: Aluno, Curso, CursoAluno).
         
     - 010 Cardinalidade
       > Tipos: 1 para 1 (1-1), 1 para muitos (1-N) e Muitos para Muitos (N-N).
@@ -118,36 +117,36 @@
     - 023 Definição DCL Grant
       > Procedures nativado SQL Server e comandos para para adicionar e conceder acessos a usuários: 
         ```
-          exec master.dbo.sp_addlogin 'UsrTeste','SenhaTeste';
+        exec master.dbo.sp_addlogin 'UsrTeste','SenhaTeste';
 
-          --Adiocnar
-          EXEC sp_grantdbaccess 'UsrTeste';
+        --Adiocnar
+        EXEC sp_grantdbaccess 'UsrTeste';
 
-          --EXEC sp_revokedbaccess 'UsrTeste';
+        --EXEC sp_revokedbaccess 'UsrTeste';
 
-          --Concedendo Acesso DE ATUALIZACAO PARA UsrTeste.
-          GRANT UPDATE ON FUNCIONARIOS TO UsrTeste; 
+        --Concedendo Acesso DE ATUALIZACAO PARA UsrTeste.
+        GRANT UPDATE ON FUNCIONARIOS TO UsrTeste; 
 
-          --Concedendo Acesso DE INSERT PARA UsrTeste.
-          GRANT INSERT ON FUNCIONARIOS TO UsrTeste; 
+        --Concedendo Acesso DE INSERT PARA UsrTeste.
+        GRANT INSERT ON FUNCIONARIOS TO UsrTeste; 
 
-          --Concedendo Acesso DE Leitura PARA UsrTeste.
-          GRANT SELECT ON FUNCIONARIOS TO UsrTeste;
+        --Concedendo Acesso DE Leitura PARA UsrTeste.
+        GRANT SELECT ON FUNCIONARIOS TO UsrTeste;
 
-          --Concedendo Acesso DE DELETE PARA UsrTeste.
-          GRANT DELETE ON FUNCIONARIOS TO UsrTeste;
+        --Concedendo Acesso DE DELETE PARA UsrTeste.
+        GRANT DELETE ON FUNCIONARIOS TO UsrTeste;
         ```
 
       > Comando para modificar usuário corrente para outro usuario e retornar:
         ```
-          --ALTERANDO USUARIO LOGADO
-          SETUSER 'UsrTeste'
+        --ALTERANDO USUARIO LOGADO
+        SETUSER 'UsrTeste'
 
-          --VERIFICANDO USUARIO LOGADO
-          select CURRENT_USER
+        --VERIFICANDO USUARIO LOGADO
+        select CURRENT_USER
 
-          --RETOANR PARA USUARIO CORRENTE
-          SETUSER 
+        --RETOANR PARA USUARIO CORRENTE
+        SETUSER 
         ```
 
     - 024 Definição DCL Revoke
@@ -170,18 +169,17 @@
     - 025 Definição DCL Deny
       > Comandos para para negar acessos a usuários: 
         ```
-          --NEGANDO Acesso DE ATUALIZACAO UsrTeste.
-          DENY UPDATE ON FUNCIONARIOS TO UsrTeste; 
+        --NEGANDO Acesso DE ATUALIZACAO UsrTeste.
+        DENY UPDATE ON FUNCIONARIOS TO UsrTeste; 
 
-          -- NEGANDO Acesso DE ATUALIZACAO UsrTeste.
-          DENY INSERT ON FUNCIONARIOS TO UsrTeste;
+        -- NEGANDO Acesso DE ATUALIZACAO UsrTeste.
+        DENY INSERT ON FUNCIONARIOS TO UsrTeste;
  
-          -- NEGANDO Acesso DE Leitura UsrTeste.
-          DENY SELECT ON FUNCIONARIOS TO UsrTeste;
+        -- NEGANDO Acesso DE Leitura UsrTeste.
+        DENY SELECT ON FUNCIONARIOS TO UsrTeste;
 
-          --NEGA ACESSO A EXECUSSAO DE PROCEDURE
-          DENY EXECUTE ON testproc TO UsrTeste;
-
+        --NEGA ACESSO A EXECUSSAO DE PROCEDURE
+        DENY EXECUTE ON testproc TO UsrTeste;
         ```
 
     - 026 Definição TCL

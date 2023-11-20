@@ -31,22 +31,28 @@
   - 011 ACID e CRUD
 
     **ACID**
-      - Atomicidade: Uma transação é uma unidade em que ou ela é executada em sua totalidade ou nada será executado.
+      
+    **A** tomicidade: Uma transação é uma unidade em que ou ela é executada em sua totalidade ou nada será executado.
 
-      - Consistência: Uma transação deve manter a consistência do banco de dados.
+    **C** onsistência: Uma transação deve manter a consistência do banco de dados.
 
-      - Isolamento: Uma transação não pode se tornar visível para outros usuário até que ela se conclua na sua totalidade. Cada transação é única e não deve haver interferência de uma transação em outra.
+    **I** solamento: Uma transação não pode se tornar visível para outros usuário até que ela se conclua na sua totalidade. Cada transação é única e não deve haver interferência de uma transação em outra.
 
-      - Durabilidade: Trasações executadas e concluídas devem permanecer gravadas no banco de maneira definitiva até que outra transação seja executada independente do período de temmpo.
+    **D** urabilidade: Trasações executadas e concluídas devem permanecer gravadas no banco de maneira definitiva até que outra transação seja executada independente do período de temmpo.
 
-      > CRUD
-        - Create(Criar)
-        - Read(Ler)
-        - Update(Atualizar)
-        - Delete(Apagar)
+    **CRUD**
+    
+    *C* reate: Criar
+    
+    *R* ead: Ler
+    
+    *U* pdate: Atualizar
+    
+    *D* elete: Apagar
 
-    - 012 Historico SQL e SGBD
-      > Linguagem de consulta interativa (Query AdHoc): que é a executação de comandos de consulta diretamente em ferramentas front-end que retornam os dados instantaneamente. Ex: SSMS - SQL Server Management Studio
+  - 012 Historico SQL e SGBD
+    
+    Linguagem de consulta interativa (Query AdHoc): que é a executação de comandos de consulta diretamente em ferramentas front-end que retornam os dados instantaneamente. Ex: SSMS - SQL Server Management Studio
 
   - Seção 04: Linguagem SQL e T-SQL
     - 013 Tipos de Dados

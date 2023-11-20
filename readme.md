@@ -29,7 +29,8 @@
     > Tipos: 1 para 1 (1-1), 1 para muitos (1-N) e Muitos para Muitos (N-N).
        
   - 011 ACID e CRUD
-    #### ACID
+
+    **ACID**
       - Atomicidade: Uma transação é uma unidade em que ou ela é executada em sua totalidade ou nada será executado.
 
       - Consistência: Uma transação deve manter a consistência do banco de dados.
@@ -287,7 +288,6 @@
 
       > E o cursor é inicialmente criado pelo comando **DECLARE CURSOS**. Os cursores podem ser definidos como qualquer bloco T-SQL (procedures, functions, triggers...).
 
-      > [!CAUTION]
       > O cursor é uma operação que requer bastante recurso, pois cada operação determinada demanda uma viagem de ida e volta através da rede.
 
       > Parâmetros dos Cursores:

@@ -280,6 +280,34 @@
       > Funções de sistema que podem retornar:
         - ERROR_NUMBER(), ERROR_SEVERITY(), ERROR_STATE(), ERROR_PROCEDURE(), ERROR_LINE(), ERROR_MESSAGE()
 
+  - Seção 13. CURSORES
+    - 057 Introdução a Cursores 
+      > São áreas em memórias compostas por linhas e colunas, destinadas a armazenar o resultado de uma consulta (select) podendo retornar de **ZERO** a **N LINHAS**.
+  
+      > Um cursor não pode ter o mesmo nome de um objeto do SQL.
+
+      > E o cursor é inicialmente criado pelo comando **DECLARE CURSOS**. Os cursores podem ser definidos como qualquer bloco T-SQL (procedures, functions, triggers...).
+
+      > O cursor é uma operação que requer bastante recurso, pois cada operação determinada demanda uma viagem de ida e volta através da rede.
+
+      > Parâmetros dos Cursores:
+        - **LOCAL / GLOBAL**: É usado para definir como funcionará as tabelas temporárias sendo @local ou @@global.
+        - **FORWARD_ONLY / SCROLL**: Indica a rolagem para o cursor.
+        - **STATIC / KEYSE / DYNAMIC / FAST_FOWARD**: Usado para definir o tipo de cursor a ser criado.
+        - **READ_ONLY / SCROLL_LOCKS / OPTIMISTIC**: Indica o tipo de bloqueio que as linhas terão. Se as linhas sofrerão atualização e se os usuários poderão utilizar esses resultados.
+        
+    
+    
+
+
+    - 058 Exemplo Cursores 1
+    - 059 Exemplo Cursores 2
+    - 060 Exemplo Cursores 3
+    - 061 Exemplo Cursores 4
+    - 062 Exemplo Cursores 5
+    - 063 Exemplo Cursores 6
+    - 064 Exemplo Cursores 7
+
 
   - Seção 15. PROCEDURES
     - 072 Procedures Parte 1

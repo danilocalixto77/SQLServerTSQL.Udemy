@@ -153,21 +153,21 @@
     - 024 Definição DCL Revoke
       > Comandos para para revogar acessos a usuários: 
         ```
-          --REVOGANDO Acesso DE ATUALIZACAO UsrTeste.
-          REVOKE UPDATE ON FUNCIONARIOS to UsrTeste; 
+        --REVOGANDO Acesso DE ATUALIZACAO UsrTeste.
+        REVOKE UPDATE ON FUNCIONARIOS to UsrTeste; 
 
-          -- REVOGANDO Acesso DE inserção UsrTeste.
-          REVOKE INSERT ON FUNCIONARIOS TO UsrTeste; 
+        -- REVOGANDO Acesso DE inserção UsrTeste.
+        REVOKE INSERT ON FUNCIONARIOS TO UsrTeste; 
 
-          -- REVOGANDO Acesso DE Leitura UsrTeste.
-          REVOKE SELECT ON FUNCIONARIOS TO UsrTeste; 
+        -- REVOGANDO Acesso DE Leitura UsrTeste.
+        REVOKE SELECT ON FUNCIONARIOS TO UsrTeste; 
 
-          --REVOGA DIREITO DE EXECUCAO DA PROC TESTE_PROC PARA UsrTeste.
-          REVOKE EXECUTE ON testproc TO UsrTeste ;
-
+        --REVOGA DIREITO DE EXECUCAO DA PROC TESTE_PROC PARA UsrTeste.
+        REVOKE EXECUTE ON testproc TO UsrTeste ;
         ```
 
-21:34 16/11/202321:34 16/11/2023    - 025 Definição DCL Deny
+
+    - 025 Definição DCL Deny
       > Comandos para para negar acessos a usuários: 
         ```
           --NEGANDO Acesso DE ATUALIZACAO UsrTeste.

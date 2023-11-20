@@ -10,22 +10,23 @@
   - 002 Introdução - Abertura
 
 ### Seção 02: Preparando e Instalando o Ambiente
-
-    - 003 Instalando .net Framework 3.5
-    - 004 Instalando SQL SERVER 2017
-    - 005 Instalando SQL SERVER MANAGEMENT STUDIO (SSMS)
-    - 006 Restaurando Databases para as aulas
+  - 003 Instalando .net Framework 3.5
+  - 004 Instalando SQL SERVER 2017
+  - 005 Instalando SQL SERVER MANAGEMENT STUDIO (SSMS)
+  - 006 Restaurando Databases para as aulas
 
 ###  - Seção 03: Seção 03. Conceitos Teóricos de Banco de dados
-    - 007 Conceitos de Banco de dados
-    - 008 Conceitos de Banco de dados relacional
-    - 009 Modelo Entidade Relacionamento
-      > MER Modelo Entidade Relacionamento
+
+  - 007 Conceitos de Banco de dados
+  - 008 Conceitos de Banco de dados relacional
+  - 009 Modelo Entidade Relacionamento
+
+    > MER Modelo Entidade Relacionamento
        
-      > Tipos: Forte, Fraca e Associativa
-        - Forte: Entidade que não dependem de outra para existirem (Ex: Produto).
-        - Fraca: Entidade que depende de outra para existirem (Vendas).
-        - Associativa: Entidade que surge devivada da necessidade de se associar informações de mais de uma entidade(Ex: Aluno, Curso, CursoAluno).
+    > Tipos: Forte, Fraca e Associativa
+      - Forte: Entidade que não dependem de outra para existirem (Ex: Produto).
+      - Fraca: Entidade que depende de outra para existirem (Vendas).
+      - Associativa: Entidade que surge devivada da necessidade de se associar informações de mais de uma entidade(Ex: Aluno, Curso, CursoAluno).
         
     - 010 Cardinalidade
       > Tipos: 1 para 1 (1-1), 1 para muitos (1-N) e Muitos para Muitos (N-N).

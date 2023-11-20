@@ -4,7 +4,6 @@
 ## Conteúdo do Curso
 
 ### Seção 01: Introdução
-
   - 001 Apresentação do Instrutor
 
   - 002 Introdução - Abertura
@@ -15,31 +14,29 @@
   - 005 Instalando SQL SERVER MANAGEMENT STUDIO (SSMS)
   - 006 Restaurando Databases para as aulas
 
-###  - Seção 03: Seção 03. Conceitos Teóricos de Banco de dados
-
+### Seção 03: Seção 03. Conceitos Teóricos de Banco de dados
   - 007 Conceitos de Banco de dados
   - 008 Conceitos de Banco de dados relacional
   - 009 Modelo Entidade Relacionamento
-
     > MER Modelo Entidade Relacionamento
-       
+
     > Tipos: Forte, Fraca e Associativa
       - Forte: Entidade que não dependem de outra para existirem (Ex: Produto).
       - Fraca: Entidade que depende de outra para existirem (Vendas).
       - Associativa: Entidade que surge devivada da necessidade de se associar informações de mais de uma entidade(Ex: Aluno, Curso, CursoAluno).
         
-    - 010 Cardinalidade
-      > Tipos: 1 para 1 (1-1), 1 para muitos (1-N) e Muitos para Muitos (N-N).
+  - 010 Cardinalidade
+    > Tipos: 1 para 1 (1-1), 1 para muitos (1-N) e Muitos para Muitos (N-N).
        
-    - 011 ACID e CRUD
-      > ACID
-        - Atomicidade: Uma transação é uma unidade em que ou ela é executada em sua totalidade ou nada será executado.
+  - 011 ACID e CRUD
+    #### ACID
+      - Atomicidade: Uma transação é uma unidade em que ou ela é executada em sua totalidade ou nada será executado.
 
-        - Consistência: Uma transação deve manter a consistência do banco de dados.
+      - Consistência: Uma transação deve manter a consistência do banco de dados.
 
-        - Isolamento: Uma transação não pode se tornar visível para outros usuário até que ela se conclua na sua totalidade. Cada transação é única e não deve haver interferência de uma transação em outra.
+      - Isolamento: Uma transação não pode se tornar visível para outros usuário até que ela se conclua na sua totalidade. Cada transação é única e não deve haver interferência de uma transação em outra.
 
-        - Durabilidade: Trasações executadas e concluídas devem permanecer gravadas no banco de maneira definitiva até que outra transação seja executada independente do período de temmpo.
+      - Durabilidade: Trasações executadas e concluídas devem permanecer gravadas no banco de maneira definitiva até que outra transação seja executada independente do período de temmpo.
 
       > CRUD
         - Create(Criar)
@@ -290,6 +287,7 @@
 
       > E o cursor é inicialmente criado pelo comando **DECLARE CURSOS**. Os cursores podem ser definidos como qualquer bloco T-SQL (procedures, functions, triggers...).
 
+      [!CAUTION]
       > O cursor é uma operação que requer bastante recurso, pois cada operação determinada demanda uma viagem de ida e volta através da rede.
 
       > Parâmetros dos Cursores:

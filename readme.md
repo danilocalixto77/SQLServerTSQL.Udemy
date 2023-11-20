@@ -287,7 +287,7 @@
 
       > E o cursor é inicialmente criado pelo comando **DECLARE CURSOS**. Os cursores podem ser definidos como qualquer bloco T-SQL (procedures, functions, triggers...).
 
-      [!CAUTION]
+      > [!CAUTION]
       > O cursor é uma operação que requer bastante recurso, pois cada operação determinada demanda uma viagem de ida e volta através da rede.
 
       > Parâmetros dos Cursores:

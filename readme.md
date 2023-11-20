@@ -32,23 +32,23 @@
 
     **ACID**
       
-    **A** tomicidade: Uma transação é uma unidade em que ou ela é executada em sua totalidade ou nada será executado.
+    **A**tomicidade: Uma transação é uma unidade em que ou ela é executada em sua totalidade ou nada será executado.
 
-    **C** onsistência: Uma transação deve manter a consistência do banco de dados.
+    **C**onsistência: Uma transação deve manter a consistência do banco de dados.
 
-    **I** solamento: Uma transação não pode se tornar visível para outros usuário até que ela se conclua na sua totalidade. Cada transação é única e não deve haver interferência de uma transação em outra.
+    **I**solamento: Uma transação não pode se tornar visível para outros usuário até que ela se conclua na sua totalidade. Cada transação é única e não deve haver interferência de uma transação em outra.
 
-    **D** urabilidade: Trasações executadas e concluídas devem permanecer gravadas no banco de maneira definitiva até que outra transação seja executada independente do período de temmpo.
+    **D**urabilidade: Trasações executadas e concluídas devem permanecer gravadas no banco de maneira definitiva até que outra transação seja executada independente do período de temmpo.
 
     **CRUD**
     
-    *C* reate: Criar
+    **C***reate*: Criar
     
-    *R* ead: Ler
+    **R***ead*: Ler
     
-    *U* pdate: Atualizar
+    **U***pdate*: Atualizar
     
-    *D* elete: Apagar
+    **D***elete*: Apagar
 
   - 012 Historico SQL e SGBD
     

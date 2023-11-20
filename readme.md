@@ -279,7 +279,7 @@
       > Funções de sistema que podem retornar:
         - ERROR_NUMBER(), ERROR_SEVERITY(), ERROR_STATE(), ERROR_PROCEDURE(), ERROR_LINE(), ERROR_MESSAGE()
 
-  - Seção 13. CURSORES
+  ### Seção 13. CURSORES
     - 057 Introdução a Cursores 
       > São áreas em memórias compostas por linhas e colunas, destinadas a armazenar o resultado de uma consulta (select) podendo retornar de **ZERO** a **N LINHAS**.
   

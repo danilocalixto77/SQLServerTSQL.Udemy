@@ -306,16 +306,24 @@
 
     Um cursor não pode ter o mesmo nome de um objeto do SQL.
 
-    E o cursor é inicialmente criado pelo comando **DECLARE CURSOS**. Os cursores podem ser definidos como qualquer bloco T-SQL (procedures, functions, triggers...).
+    E o cursor é inicialmente criado pelo comando **DECLARE CURSOR**. Os cursores podem ser definidos como qualquer bloco T-SQL (procedures, functions, triggers...).
 
     O cursor é uma operação que requer bastante recurso, pois cada operação determinada demanda uma viagem de ida e volta através da rede.
 
     Parâmetros dos Cursores:
     - **LOCAL / GLOBAL**: É usado para definir como funcionará as tabelas temporárias sendo @local ou @@global.
     - **FORWARD_ONLY / SCROLL**: Indica a rolagem para o cursor.
-    - **STATIC / KEYSE / DYNAMIC / FAST_FOWARD**: Usado para definir o tipo de cursor a ser criado.
+    - **STATIC / KEYSET / DYNAMIC / FAST_FOWARD**: Usado para definir o tipo de cursor a ser criado.
     - **READ_ONLY / SCROLL_LOCKS / OPTIMISTIC**: Indica o tipo de bloqueio que as linhas terão. Se as linhas sofrerão atualização e se os usuários poderão utilizar esses resultados.
-        
+
+    - **TYPE_WARNING**. Este alerta caso o caso um cursor seja convertido para um outro tipo específico.
+
+    - **FOR SQL_STATEMENT**. Especifica às linhas a serem incluídas no conjunto do cursor.
+
+    - **FOR UPDATE** Opcional.
+
+    - Tipos de cursos: Static, Keyset, Dynamic, Firehose
+
   - 058 Exemplo Cursores 1
 
   - 059 Exemplo Cursores 2

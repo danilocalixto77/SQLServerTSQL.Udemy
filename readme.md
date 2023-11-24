@@ -324,6 +324,8 @@
 
     - Tipos de cursos: Static, Keyset, Dynamic, Firehose
 
+---
+
   - 058 Exemplo Cursores 1
 
   - 059 Exemplo Cursores 2
@@ -337,7 +339,6 @@
   - 063 Exemplo Cursores 6
 
   - 064 Exemplo Cursores 7
-
 
 ### Seção 15: PROCEDURES
   - 072 Procedures Parte 1

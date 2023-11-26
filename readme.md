@@ -325,11 +325,13 @@
     - Tipos de cursos: Static, Keyset, Dynamic, Firehose
 
   - 058 Exemplo Cursores 1
-    Exemplo de criação de um curso simples com variáveis e while.
+    Exemplo de criação de um cursor simples com variáveis e while.
 
   - 059 Exemplo Cursores 2
+    Exemplo de cursor com update.
 
   - 060 Exemplo Cursores 3
+    Exemplo de cursor com insert.
 
   - 061 Exemplo Cursores 4
 

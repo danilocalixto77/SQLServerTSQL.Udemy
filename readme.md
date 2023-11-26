@@ -334,8 +334,10 @@
     Exemplo de cursor com insert.
 
   - 061 Exemplo Cursores 4
+    Exemplo de cursor com update e condicional if.
 
   - 062 Exemplo Cursores 5
+    Exemplo de cursor com update, while, if.
 
   - 063 Exemplo Cursores 6
 

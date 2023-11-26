@@ -9,10 +9,10 @@ create table cli_nome
 
 --CRIANDO CURSOR PARA INSERT
 --DECLARANDO VARIAVEIS
-    DECLARE @codcliente int, 
-	        @primeironome VARCHAR(30), 
-			@sobrenome VARCHAR(60), 
-			@nomecompleto VARCHAR(90)
+DECLARE @codcliente int, 
+	    @primeironome VARCHAR(30), 
+		@sobrenome VARCHAR(60), 
+		@nomecompleto VARCHAR(90)
  
 -- Cursor para percorrer os registros
 DECLARE cursor1 CURSOR FOR

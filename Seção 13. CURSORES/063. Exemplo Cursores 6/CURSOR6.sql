@@ -19,7 +19,7 @@ INSERT INTO ##DADOS VALUES (8,'Jorge')
 INSERT INTO ##DADOS VALUES (9,'Richard')
 INSERT INTO ##DADOS VALUES (10,'Anne')
 
--- select * from ##DADOS
+--select * from ##DADOS
 --Declarando cursor
 DECLARE cDados SCROLL CURSOR FOR
 SELECT NUMERO,NOME FROM ##DADOS

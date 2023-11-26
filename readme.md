@@ -340,9 +340,22 @@
     Exemplo de cursor com update, while, if.
 
   - 063 Exemplo Cursores 6
-    Evidenciando e entendendo o funcionamento da rolagem do cursor. Demonstrando o direcionamento dos registros dentro do curso. Adiantanto, retrocedendo, indo para o início, final, saltando quantidade X de registros do curso e etc...
+    Exemplo de cursor demonstrando o funcionamento da rolagem do cursor. O direcionamento dos registros dentro do curso. Adiantanto, retrocedendo, indo para o início, final, saltando quantidade X de registros do curso e etc...
 
   - 064 Exemplo Cursores 7
+    Exemplo de um cursor dentro de outro cursor.
+
+### Seção 14: FUNÇÕES
+  - 065 Introdução a Funções
+    Criação de funções próprias. As funções são classificadas em três tipos: Escalares,
+
+    Funções **Escalares**: Scalar-valued user-defined function. Retorna um único tipo de dados que tenha sido definido no Return.
+
+    Funções com valores de **Tabela** - Mult-statement table-valued function. Retorna um tipo de dados table. O resultado é um conjuntos de valores e uma instrução select.
+
+    Funções em **Linha** In-Line table-valuesd Function. Muito usada em views.
+
+
 
 ### Seção 15: PROCEDURES
   - 072 Procedures Parte 1

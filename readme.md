@@ -340,6 +340,7 @@
     Exemplo de cursor com update, while, if.
 
   - 063 Exemplo Cursores 6
+    Evidenciando e entendendo o funcionamento da rolagem do cursor. Demonstrando o direcionamento dos registros dentro do curso. Adiantanto, retrocedendo, indo para o início, final, saltando quantidade X de registros do curso e etc...
 
   - 064 Exemplo Cursores 7
 

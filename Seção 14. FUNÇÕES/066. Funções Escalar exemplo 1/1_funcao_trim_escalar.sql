@@ -17,7 +17,8 @@ CREATE FUNCTION FN_Trim(@ST VARCHAR(1000)) 
 SELECT '>' + ('      Silva Telles       ')+'<'
 union
 SELECT '>' + dbo.FN_Trim('      Silva Telles       ')+'<'
-
+union
+SELECT '>' + dbo.FN_Trim('      Silva Telles       ')+'<'
 
 
 --PARA ALTERAR FUNÇÃO
@@ -28,5 +29,6 @@ ALTER  FUNCTION FN_Trim(@ST VARCHAR(500)) 
   END
 
 --APAGAR FUNÇÃO
-DROP FUNCTION FN_Tri;
+DROP FUNCTION FN_Trim;
+
 

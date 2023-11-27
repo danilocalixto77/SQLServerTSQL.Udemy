@@ -358,9 +358,10 @@
   - 066 Funções Escalar exemplo 1
     Criação de uma função agrupando o Ltrim e o Rtrim.
 
-- 067 Funções Escalar exemplo 2
+  - 067 Funções Escalar exemplo 2
+    Criação de uma função para soma de dois numeros.
 
-- 068 Funções Escalar exemplo 3 
+  - 068 Funções Escalar exemplo 3 
 
 ### Seção 15: PROCEDURES
   - 072 Procedures Parte 1

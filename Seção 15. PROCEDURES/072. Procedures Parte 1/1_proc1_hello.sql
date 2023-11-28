@@ -10,3 +10,16 @@ END
 
 --Executando Procedure
 EXECUTE PROC_OLA
+
+
+
+create procedure proc_teste
+as
+begin
+
+  Print 'Teestando com o print o Olá mundo!'
+
+end
+
+
+exec proc_teste

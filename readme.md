@@ -279,11 +279,13 @@
 
   - 051 Temp Table
 
-  Tabelas/Entidades criadas na data base TempDB e podem ser **Locais** ou **Globais**
+    Tabelas/Entidades criadas na data base 
+    
+    TempDB e podem ser **Locais** ou **Globais**
 
-  Tabelas **Locais** indentificado por #
+    Tabelas **Locais** indentificado por #
 
-  Tabelas **Globais** indentificado por ##
+    Tabelas **Globais** indentificado por ##
 
   - 052 Siga em frente ! Vamos até o final!
 
@@ -325,28 +327,36 @@
     - Tipos de cursos: Static, Keyset, Dynamic, Firehose
 
   - 058 Exemplo Cursores 1
+  
     Exemplo de criação de um cursor simples com variáveis e while.
 
   - 059 Exemplo Cursores 2
+  
     Exemplo de cursor com update.
 
   - 060 Exemplo Cursores 3
+  
     Exemplo de cursor com insert.
 
   - 061 Exemplo Cursores 4
+  
     Exemplo de cursor com update e condicional if.
 
   - 062 Exemplo Cursores 5
+  
     Exemplo de cursor com update, while, if.
 
   - 063 Exemplo Cursores 6
+  
     Exemplo de cursor demonstrando o funcionamento da rolagem do cursor. O direcionamento dos registros dentro do curso. Adiantanto, retrocedendo, indo para o início, final, saltando quantidade X de registros do curso e etc...
 
   - 064 Exemplo Cursores 7
+  
     Exemplo de um cursor dentro de outro cursor.
 
 ### Seção 14: FUNÇÕES
   - 065 Introdução a Funções
+
     Criação de funções próprias. As funções são classificadas em três tipos: Escalares,
 
     Funções **Escalares**: Scalar-valued user-defined function. Retorna um único tipo de dados que tenha sido definido no Return.
@@ -356,40 +366,58 @@
     Funções em **Linha** In-Line table-valuesd Function. Muito usada em views.
 
   - 066 Funções Escalar exemplo 1
+    
     Criação de uma função agrupando o Ltrim e o Rtrim.
 
   - 067 Funções Escalar exemplo 2
+    
     Criação de uma função para soma de dois numeros.
 
   - 068 Funções Escalar exemplo 3 
+    
     Criando uma função com uma select que buscar através de uma string e retorna um decimal. Saldo de uma conta.
 
   - 069 Funções Valores de Tabela exemplo 4 
+    
     Criação de uma função com uma tabela e trabalhando com datas. Saltando dias de uma faixa informada.
 
   - 070 Funções Valores de Tabela exemplo 5
+    
     Criação de uma tabela para consulta de uma UF. Algo semelhante a uma view.
 
   - 071 Funções IN line Tabela exemplo 6
+    
     Criação de um exemplo semelhante a uma view. Utilizando IN.
 
 ### Seção 15: PROCEDURES
   - 072 Procedures Parte 1
+    
     Procedures são procedimentos armazenados no banco de dados. Conhecidas como **Stored Procedure** ela pode ser reponsável algumas operações dentro de um banco de dados.
+    
     **Controlar autorização de acesso**
+    
     **Criar um caminho para auditorias**
+    
     **Separar instuções de definições e de manipulações**
+    
     O bloco de uma procedure é delimitado por **BEGIN** e **END** obrigatoriamente.
     Criação de procedures com **select** e **print** para retornar mensagem na tela. E mais um exemplo buscando o valor de uma variável.
 
   - 073 Procedures Parte 2
-  
+
     Criação de procedures trabalhando com data e hora.
     
     Criação de procedure recebendo vários parâmetros.
 
   - 074 Procedures Parte 3
+
+    Criação de uma procedure para calcular o IMC.
+
+    Criação de uma procedure de calculadora.
+
   - 075 Procedures Parte 4
+    
+    Criação de uma procedure **CRUD**. Bem completa os quatro comando DML e utilização de **label**
 
 ### Seção 16: TRIGGERS
   - 076 Introdução

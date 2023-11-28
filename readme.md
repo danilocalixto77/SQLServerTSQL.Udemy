@@ -362,6 +362,16 @@
     Criação de uma função para soma de dois numeros.
 
   - 068 Funções Escalar exemplo 3 
+    Criando uma função com uma select que buscar através de uma string e retorna um decimal. Saldo de uma conta.
+
+  - 069 Funções Valores de Tabela exemplo 4 
+    Criação de uma função com uma tabela e trabalhando com datas. Saltando dias de uma faixa informada.
+
+  - 070 Funções Valores de Tabela exemplo 5
+    Criação de uma tabela para consulta de uma UF. Algo semelhante a uma view.
+
+  - 071 Funções IN line Tabela exemplo 6
+    Criação de um exemplo semelhante a uma view. Utilizando IN.
 
 ### Seção 15: PROCEDURES
   - 072 Procedures Parte 1

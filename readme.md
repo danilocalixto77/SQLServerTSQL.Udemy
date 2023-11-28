@@ -375,7 +375,19 @@
 
 ### Seção 15: PROCEDURES
   - 072 Procedures Parte 1
+    Procedures são procedimentos armazenados no banco de dados. Conhecidas como **Stored Procedure** ela pode ser reponsável algumas operações dentro de um banco de dados.
+    **Controlar autorização de acesso**
+    **Criar um caminho para auditorias**
+    **Separar instuções de definições e de manipulações**
+    O bloco de uma procedure é delimitado por **BEGIN** e **END** obrigatoriamente.
+    Criação de procedures com **select** e **print** para retornar mensagem na tela. E mais um exemplo buscando o valor de uma variável.
+
   - 073 Procedures Parte 2
+  
+    Criação de procedures trabalhando com data e hora.
+    
+    Criação de procedure recebendo vários parâmetros.
+
   - 074 Procedures Parte 3
   - 075 Procedures Parte 4
 

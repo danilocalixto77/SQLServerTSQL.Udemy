@@ -421,6 +421,17 @@
 
 ### Seção 16: TRIGGERS
   - 076 Introdução
+
+    É um bloco de comandos T-SQL que são programados para serem disparados automaticamente quando executado um comando do tipo **DML (Insert, Delete, Update)**. Esse momento exato é parametrizado na construção da trigger que é pelos parâmeteros: 
+    
+    **FOR**: No momento em que se executa um comando DML a trigger é executada. 
+    
+    **AFTER**: Após a execução de um comando DML da trigger será executada.
+    
+    **INSTEAD OF**: tem o comportamento de executar no lugar do comando DML executa a trigger.
+
+    Há também triggers que podem ser programadas para comandos DDL.
+
   - 077 Triggers Parte 1
   - 078 Triggers Parte 2
   - 079 Triggers Parte 3

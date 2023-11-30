@@ -449,6 +449,13 @@
 
     Exemplo de trigger **ON ALL SERVER**.
 
+### Seção 17: MERGE
+
+  - 080 MERGE PARTE 1
+
+  - 081 MERGE PARTE 2
+
+
 ### Seção 99: Extras
 
 

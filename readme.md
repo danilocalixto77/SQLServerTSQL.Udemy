@@ -433,7 +433,18 @@
     Há também triggers que podem ser programadas para comandos DDL.
 
   - 077 Triggers Parte 1
+    Exemplo de criação de trigger para atualizar um único registro.
+
+    Como habilitar e desabilitar trigger.
+
+    Exemplo usando curso, com while e fazendo insert a partir das tabelas temporárias.
+    **Deleted e Inserted**
+
   - 078 Triggers Parte 2
+
+    Exemplo de trigger do tipo **For Insert** com Ifs e inserts a partir das tabelas temporárias das triggers.
+
+
   - 079 Triggers Parte 3
 
 ### Seção 99: Extras

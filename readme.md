@@ -444,8 +444,10 @@
 
     Exemplo de trigger do tipo **For Insert** com Ifs e inserts a partir das tabelas temporárias das triggers.
 
-
   - 079 Triggers Parte 3
+    Exemplo de trigger **ON DATABASE**.
+
+    Exemplo de trigger **ON ALL SERVER**.
 
 ### Seção 99: Extras
 

@@ -453,7 +453,22 @@
 
   - 080 MERGE PARTE 1
 
+    **MERGE** permite realizar operação de inserções, atualizações e excluções em uma tabela de destino baseado na tabela de origem.
+
+    **Dicas de desempenho** nas operações:
+
+    Inserção: quando o registo existe na tabela destino e não existe na origem.
+
+    Atualização: quando os registros coincidem tanto na origem como destino.
+
+    E essas operações podem ser obtidas através dos comando DML que já conhecemos INSERT, DELETE e UPDATE.
+
+    Exemplo 1 de Merge com tabelas temporárias. Fazendo inserts e updates.
+
+
   - 081 MERGE PARTE 2
+
+    Exemplo 2 de Merge criando tabelas.
 
 
 ### Seção 99: Extras

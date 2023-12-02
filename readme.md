@@ -479,11 +479,15 @@
     
   - 083 LINKED SERVER + OPENQUERY
 
-  É uma funcionalidade do SQL Server que permite estabelecer conexões com dois ou mais servidores. Possibilitando realizar consultas em diversos tipos de bases diferentes.
+  **Linked Server** é uma funcionalidade do SQL Server que permite estabelecer conexões com dois ou mais servidores. Possibilitando realizar consultas em diversos tipos de bases diferentes.
 
   Essa conexão é possível entre fontes OLE DB, como Excel, Access, outros servidores SQL Server, e até com outros SGBDs como Oracle, Mysql, Sybase e etc...
 
-  
+  **Openquery** executa a consulta com a passagem especificada com o servidor referenciado.
+
+  Exemplo de criação de linked server.
+
+
 
 ### Seção 99: Extras
 

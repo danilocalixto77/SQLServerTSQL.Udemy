@@ -476,6 +476,15 @@
 
     **BULK INSERT** É utilizado para trabalho de importação de dados em massa. E somente de uma direção.
 
+    
+  - 083 LINKED SERVER + OPENQUERY
+
+  É uma funcionalidade do SQL Server que permite estabelecer conexões com dois ou mais servidores. Possibilitando realizar consultas em diversos tipos de bases diferentes.
+
+  Essa conexão é possível entre fontes OLE DB, como Excel, Access, outros servidores SQL Server, e até com outros SGBDs como Oracle, Mysql, Sybase e etc...
+
+  
+
 ### Seção 99: Extras
 
 

@@ -18,13 +18,13 @@ WITH        (
 	rowterminator='\n',               
 	maxerrors = 0,               
 	fire_triggers,             
-    firstrow = 3,               
- 	lastrow = 10
+    firstrow = 1,               
+ 	lastrow = 15
 	     ) ;
 
-	--VERFICANDO DADOS IMPORTADOS
-	select *  from produto
-	--DELETANDO ARQUIVOS
-	delete from produto
+--VERFICANDO DADOS IMPORTADOS
+select *  from produto
+--DELETANDO ARQUIVOS
+delete from produto
 
 

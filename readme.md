@@ -470,6 +470,11 @@
 
     Exemplo 2 de Merge criando tabelas.
 
+### Seção 18: Trabalhando com dados de outras Fontes
+
+  - 082 BULK
+
+    **BULK INSERT** É utilizado para trabalho de importação de dados em massa. E somente de uma direção.
 
 ### Seção 99: Extras
 

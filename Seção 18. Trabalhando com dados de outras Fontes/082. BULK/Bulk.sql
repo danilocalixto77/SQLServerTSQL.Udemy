@@ -9,7 +9,8 @@ create table produto
 
 --Exemplo de Bulk Insert
 BULK INSERT produto 
-FROM 'C:\EAD\SQL SERVER DEV\Scripts\17_BULK\carga\produto.txt'
+--FROM 'C:\EAD\SQL SERVER DEV\Scripts\17_BULK\carga\produto.txt'
+from 'D:\Danilo\Cursos\Udemy\FormaçãoSQLServer2017DesenvolvedorExpertSQLeT-SQL\Seção 18. Trabalhando com dados de outras Fontes\082. BULK\carga\produto.txt'
 WITH        (
 	codepage='ACP',  -- { 'ACP' | 'OEM' | 'RAW' | 'code_page' } ] 
     DATAFILETYPE = 'char',   --      { 'char' | 'native'| 'widechar' | 'widenative' } ]         
@@ -17,7 +18,7 @@ WITH        (
 	rowterminator='\n',               
 	maxerrors = 0,               
 	fire_triggers,             
-   firstrow = 3,               
+    firstrow = 3,               
  	lastrow = 10
 	     ) ;
 

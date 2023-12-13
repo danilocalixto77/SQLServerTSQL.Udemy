@@ -551,9 +551,12 @@
     Comercial
 
     Fiscal
-    
 
+- 087 CRIANDO DATABASE E TABELAS Parte 1
 
+- 088 CRIANDO DATABASE E TABELAS Parte 2
+
+- 089 CRIANDO DATABASE E TABELAS Parte 3
 
 
 

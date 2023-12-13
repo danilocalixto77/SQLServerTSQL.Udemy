@@ -1,5 +1,5 @@
 # Formação SLQ Server 2017 Desenvolvedor Expert SQL e T-SQL
-  > Escola: **Udemy** - Professor: **André Rosa - Udemy**
+  > Escola: **Udemy** - Professor: **André Rosa**
 
 ## Conteúdo do Curso
 
@@ -486,6 +486,74 @@
   **Openquery** executa a consulta com a passagem especificada com o servidor referenciado.
 
   Exemplo de criação de linked server.
+
+  - 084 OPENROWSET
+
+    Esta é mais uma forma de conexão entre bancos de dados diferentes, entretanto a menos usual.
+
+### Seção 19: Dicas de Performance
+
+  - 085 Dicas
+
+    Ordem de processamento:
+
+    5: SELECT 
+    
+    1: FROM
+    
+    2: WHERE
+
+    3: GROUP BY
+
+    4: HAVING
+
+    6: ORDER BY
+
+    Ciclo de performance:
+
+    1. VERIFICAR TABELAS
+    2. EXAMINE FILTROS
+    3. CONHECER TABELAS 
+    4. ANALISAR CONSULTAS
+    5. REVISE AS PK'S E FK'S
+    6. EXAMINE O PLANO DE EXECUÇÃO
+    7. REGISTRE RESULTADOS
+    8. AJUSTE CONSULTAS
+    9. APRIMORE E EXECUTE NOVAMENTE A CONSULTA
+    10. CONSIDERAR AJUSTE DE INDICES
+    11. EXECUTE NOVAMENTE A CONSULTA
+    12. ELIMINAR O QUE NÃO É NECESSÁRIO
+
+### Seção 20: Projeto Mini-ERP MULT-EMPRESAS
+
+  - 086 Apresentação do Projeto
+
+    Análise de Requisito
+
+    Projeto Conceitual
+
+    Projeto Lógico
+
+    Projeto Físico
+
+    O Banco de dados irá conter:
+    
+    Usuários
+
+    Processo de Produção
+
+    Suprimentos
+
+    RH 
+
+    Financeiro
+
+    Comercial
+
+    Fiscal
+    
+
+
 
 
 

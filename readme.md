@@ -558,7 +558,7 @@
 
 - 089 CRIANDO DATABASE E TABELAS Parte 3
 
-
+- 90 CARGA TABELAS Parte 1
 
 ### Seção 99: Extras
 

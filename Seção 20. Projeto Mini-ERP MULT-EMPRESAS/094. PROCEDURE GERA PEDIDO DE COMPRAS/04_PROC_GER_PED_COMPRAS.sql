@@ -270,7 +270,7 @@ END
 --TESTANDO PROCEDURE
 
 EXEC PROC_GER_PED_COMPRAS  @COD_EMPRESA=1,
-                           @MES=2, 
+                           @MES=3, 
                            @ANO=2018 
 --ANALISANDO
 

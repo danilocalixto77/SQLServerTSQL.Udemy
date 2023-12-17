@@ -568,6 +568,17 @@
 
 - 094 PROCEDURE GERA PEDIDO DE COMPRAS
 
+- 095 PROCEDURE GERA ESTOQUE
+
+  Stored Procedure com várias validações de quantidade de lote, estoque e select.
+
+  Validações de ERROS.
+
+  Atualizações de UPDATE e INSERT na mesma SP.
+
+096 PROCEDURE GERA NOTA FISCAL
+
+
 
 ### Seção 99: Extras
 

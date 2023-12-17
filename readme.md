@@ -578,6 +578,8 @@
 
 096 PROCEDURE GERA NOTA FISCAL
 
+  Stored Procedure com uso de CURSOR em cabeçalho e detalhes de notas fiscais de entrada e saída.
+
 
 
 ### Seção 99: Extras

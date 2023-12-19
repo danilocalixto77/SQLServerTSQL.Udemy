@@ -580,6 +580,9 @@
 
   Stored Procedure com uso de CURSOR em cabeçalho e detalhes de notas fiscais de entrada e saída.
 
+097 INTEGRA NOTA FISCAL ESTOQUE PARTE 1
+
+  Stored procedure com utilização de um outra procedure internamente na geração do estoque de entrada.
 
 
 ### Seção 99: Extras

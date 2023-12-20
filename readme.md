@@ -594,6 +594,13 @@
 
   Exemplo de stored procedure cursores e loops para modelo financeiro de contas a pagar e a receber.
 
+100 PROCEDURE APONTAMENTO PRODUÇÃO PARTE 1
+
+  Stored procedure de baixa de estoque de itens para produção de um produto para o estoque.
+
+101 PROCEDURE APONTAMENTO PRODUÇÃO PARTE 2
+
+  Continuação da stored procedure.
 
 
 

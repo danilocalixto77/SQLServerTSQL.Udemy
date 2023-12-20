@@ -584,6 +584,18 @@
 
   Stored procedure com utilização de um outra procedure internamente na geração do estoque de entrada.
 
+098 INTEGRA NOTA FISCAL ESTOQUE PARTE 2
+
+  Continuação da stored procedure de movimentação de estoque dos produtos das  notas fiscal de entrada e saida.
+
+  Procedure contém exemplo de pesquisa e fechamento de cursores abertos.
+
+099 INTEGRA NOTA FISCAL COM FINANCEIRO  
+
+  Exemplo de stored procedure cursores e loops para modelo financeiro de contas a pagar e a receber.
+
+
+
 
 ### Seção 99: Extras
 

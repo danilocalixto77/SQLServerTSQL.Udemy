@@ -602,7 +602,9 @@
 
   Continuação da stored procedure.
 
+102 PROCEDURE FOLHA DE PAGAMENTO
 
+  Stored Procedure para folha de pagamento.
 
 ### Seção 99: Extras
 

@@ -606,6 +606,8 @@
 
   Stored Procedure para folha de pagamento.
 
+  Data = '1900-01-01' equivale a um campo vazio.
+
 ### Seção 99: Extras
 
 

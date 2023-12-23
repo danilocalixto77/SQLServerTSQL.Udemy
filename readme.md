@@ -608,6 +608,13 @@
 
   Data = '1900-01-01' equivale a um campo vazio.
 
+103 TRIGGER BLOQUEIA USUARIO
+
+  Trigger com exemplo de bloqueio de acesso de usuário.
+
+  If de situação vindo de um UPDATE
+
+
 ### Seção 99: Extras
 
 

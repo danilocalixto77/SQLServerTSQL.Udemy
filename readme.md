@@ -614,6 +614,19 @@
 
   If de situação vindo de um UPDATE
 
+104 TRIGGER AUDITORIA SALARIO
+
+  Gerando insert a partir da trigger
+
+105 VIEW TRANFORMANDO DADOS EM INFORMAÇÕES PARTE 1
+
+  Exemplos diversos de views
+
+106 VIEW TRANFORMANDO DADOS EM INFORMAÇÕES PARTE 6
+
+  Continuação de exemplos.
+
+
 
 ### Seção 99: Extras
 

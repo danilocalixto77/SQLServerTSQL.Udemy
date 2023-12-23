@@ -629,6 +629,34 @@
 107 FINAL PROJETO
 
 
+### Seção 21: Exercicios Extras - Analise Exploratória de dados
+
+  108 Apresenta‡Æo do Exercicios
+
+  109 Respostas dos exercícios de 1 a 2
+
+  110 Respostas dos exercícios de 3 a 5
+
+  111 Respostas dos exercícios de 6 a 8
+
+  112 Respostas dos exercícios de 9 a 11
+
+  113 Respostas dos exercícios de 12 a 15
+
+  114 Respostas dos exercícios de 16 a 18
+
+  115 Respostas dos exercícios de 19 a 20
+  116 Respostas dos exercícios de 21 a 23
+  
+  117 Respostas dos exercícios de 24 a 25
+  
+  118 Respostas dos exercícios de 26 a 27
+
+### Seção 22: Aulas Bonus
+
+
+
+
 ### Seção 99: Extras
 
 

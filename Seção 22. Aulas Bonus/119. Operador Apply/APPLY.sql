@@ -110,22 +110,18 @@ SELECT      a.id_func,
 			c.nome_depto ,
             b.valor, 
            F_BON.val_bonus 
-FROM        t_funcionario a 
-INNER JOIN  t_func_sal b 
-ON          a.id_func=b.id_func 
-INNER JOIN  t_deptos c 
-ON          a.id_depto=c.id_depto
+FROM        t_funcionario	a 
+INNER JOIN  t_func_sal		b ON          a.id_func=b.id_func 
+INNER JOIN  t_deptos		c ON          a.id_depto=c.id_depto
 CROSS apply dbo.Func_calc_bonus(a.id_func) AS F_BON; 
 
---Usando OUTER APLY
+--Usando OUTER APLY / SEMELHANTE AO LEFT JOIN
 SELECT      a.id_func, 
             a.nome_func,
 			c.nome_depto ,
             b.valor, 
              ISNULL(F_BON.val_bonus,0) val_bonus
-FROM        t_funcionario a 
-INNER JOIN  t_func_sal b 
-ON          a.id_func=b.id_func 
-INNER JOIN  t_deptos c 
-ON          a.id_depto=c.id_depto
+FROM        t_funcionario	a 
+INNER JOIN  t_func_sal		b ON          a.id_func=b.id_func 
+INNER JOIN  t_deptos		c ON          a.id_depto=c.id_depto
 OUTER apply dbo.Func_calc_bonus(a.id_func) AS F_BON;

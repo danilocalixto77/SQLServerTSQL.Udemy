@@ -654,7 +654,13 @@
 
 ### Seção 22: Aulas Bonus
 
+  119 Operador Apply
 
+    Operador tem a aplicação semelhante ao INNER JOIN e LEFT JOIN, entretanto é o relacionamento entre uma tabela e uma função.
+
+  120 DDM (Máscara de Dados Dinâmicos) e Roles Personalizadas.
+
+    
 
 
 ### Seção 99: Extras

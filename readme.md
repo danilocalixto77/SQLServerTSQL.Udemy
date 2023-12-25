@@ -660,7 +660,15 @@
 
   120 DDM (Máscara de Dados Dinâmicos) e Roles Personalizadas.
 
-    
+    Mecanismo que com o advento da LGPD pode ser muito útil pois faz o tratamento das informações mascarando a visualização.
+
+    O processo permite adicionar as máscras em determinadas campos ao ser criados tabelas e campos, com o comando MASKED WITH.
+
+    Após a definição do campos devemos criar as roles para os usuários, pois de acordo com a role a visualização será determinada.
+
+    Após as criação das roles, as permissões devem ser atribuídas as roles. Com os comandos DCL semalhantemente ao usuários.
+
+
 
 
 ### Seção 99: Extras

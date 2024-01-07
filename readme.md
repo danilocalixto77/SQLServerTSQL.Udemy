@@ -476,6 +476,7 @@
 
     **BULK INSERT** É utilizado para trabalho de importação de dados em massa. E somente de uma direção.
 
+    Uma alternativa para importação de arquivos CVS para bases de dados SQL.
     
   - 083 LINKED SERVER + OPENQUERY
 
